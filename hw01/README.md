@@ -1,9 +1,11 @@
 execution:
-  1. $ mkdir build
-  2. $ cd build
-  3. $ cmake ..
-  4. $ make
-  5. $ make run
+  1. download the folder(gaussianblur_fifo or data_movement)
+  2. go into the folder
+  3. $ mkdir build
+  4. $ cd build
+  5. $ cmake ..
+  6. $ make
+  7. $ make run
 
 
 change filter:
