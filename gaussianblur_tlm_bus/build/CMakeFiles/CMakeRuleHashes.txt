@@ -1,4 +1,0 @@
-# Hashes of file build rules.
-ae484aeb39bec172c68b1830cb8d4dd7 CMakeFiles/check
-262a2dab365a9dcfafdef94eccef51e7 CMakeFiles/run
-52933aee0bd3bf7f506ef73e309290d3 out.bmp
