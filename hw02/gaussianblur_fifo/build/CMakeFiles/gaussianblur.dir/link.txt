@@ -1,1 +1,0 @@
-/usr/bin/c++   -O3 -Wall -D CLOCK_PERIOD=1.0  -rdynamic CMakeFiles/gaussianblur.dir/GaussianBlurFilter.cpp.o CMakeFiles/gaussianblur.dir/Initiator.cpp.o CMakeFiles/gaussianblur.dir/Testbench.cpp.o CMakeFiles/gaussianblur.dir/main.cpp.o  -o gaussianblur  -Wl,-rpath,/opt/systemc/lib /opt/systemc/lib/libsystemc.so.2.3.3 -pthread 
