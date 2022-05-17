@@ -193,9 +193,9 @@ int main(int argc, char *argv[]) {
       for(int v = -1; v <= 1; v ++){
         for(int u = -1; u <= 1; u++){
           if((v + i) >= 0  &&  (v + i ) < width && (u + j) >= 0 && (u + j) < height ){
-            buffer[0] = *(source_bitmap + bytes_per_pixel * ((j + u) * width + (i + v)) + 2);
-            buffer[1] = *(source_bitmap + bytes_per_pixel * ((j + u) * width + (i + v)) + 1);
-            buffer[2] = *(source_bitmap + bytes_per_pixel * ((j + u) * width + (i + v)) + 0);
+            buffer[0] = *(source_bitmap + bytes_per_pixel * ((i + v) * width + (j + u)) + 2);
+            buffer[1] = *(source_bitmap + bytes_per_pixel * ((i + v) * width + (j + u)) + 1);
+            buffer[2] = *(source_bitmap + bytes_per_pixel * ((i + v) * width + (j + u)) + 0);
             buffer[3] = 0;
           }else{
             buffer[0] = 0;
